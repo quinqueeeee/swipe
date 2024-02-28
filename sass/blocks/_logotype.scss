@@ -1,0 +1,16 @@
+.logotype {
+    margin-top: -50px;
+    position: relative;
+    z-index: -1;
+    background: #e7e5ff;
+}
+
+.logotype__container {
+    padding: 66px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.logotype__logo {}

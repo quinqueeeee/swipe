@@ -1,0 +1,44 @@
+.team {
+    padding-bottom: 80px;
+}
+
+.team__container {}
+
+.team__content {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team__name {
+    display: flex;
+    flex-direction: column;
+}
+
+.team__title {
+    font-family: var(--second-family);
+    font-size: 70px;
+    line-height: 110%;
+    color: var(--low-color);
+
+}
+
+.team__links {
+    display: flex;
+    gap: 30px;
+}
+
+.team__btn {
+    padding: 18px 36px;
+    background-color: var(--purple-color);
+    font-family: var(--second-family);
+    color: #fff;
+
+}
+
+
+.team__butn {
+    background-color: #fff;
+    color: var(--low-color);
+}

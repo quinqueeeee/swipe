@@ -1,0 +1,42 @@
+.ourteam {}
+
+.ourteam__container {}
+
+.ourteam__cards {
+}
+
+.ourteam__cards-top {
+    flex-wrap: wrap;
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+.ourteam__card {
+    flex: 0 1 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & h2 {
+        padding-top: 16px;
+        padding-bottom: 12px;
+        font-size: 20px;
+        line-height: 110%;
+        text-align: center;
+        color: #1a1930;
+    }
+
+    & p {
+        text-align: center;
+    }
+
+}
+
+.ourteam__cards-bot {
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}

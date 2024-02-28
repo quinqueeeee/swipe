@@ -1,0 +1,81 @@
+.feedback {
+    margin-top: -30px;
+    background: url("../img/feedback/background.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+
+    // padding-bottom: 50px;
+}
+
+.feedback__container {
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+    border-bottom: 1px solid #e7e5ff;
+}
+
+.feedback__content {
+    font-family: var(--second-family);
+
+    & p {
+        font-size: 17px;
+        line-height: 148%;
+        text-transform: uppercase;
+    }
+
+    & h2 {
+        font-size: 70px;
+        line-height: 110%;
+
+    }
+
+}
+
+
+
+
+
+.feedback__cards {
+    padding-top: 72px;
+}
+
+
+
+.feedback__card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e7e5ff;
+
+    &:not(:last-child) {
+        border-bottom: 1px solid #e7e5ff;
+    }
+}
+
+.feedback__card-content {
+    // padding-right: 76px;
+
+
+    & h2 {
+        font-size: 30px;
+        line-height: 140%;
+        color: #1a1930;
+        padding-top: 26px;
+        padding-bottom: 20px;
+    }
+
+    & p {
+        font-size: 18px;
+        line-height: 140%;
+        padding-bottom: 31px;
+    }
+}
+
+
+.feedback__card-price {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 140%;
+    text-align: right;
+    // text-align: right;
+}

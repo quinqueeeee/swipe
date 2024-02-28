@@ -1,0 +1,11 @@
+@media (max-width: 1200px) {
+	.feedback {
+		background: none;
+	}
+
+	.feedback__container {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+}

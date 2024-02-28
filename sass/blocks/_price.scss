@@ -1,0 +1,143 @@
+.price {}
+
+.price__container {
+
+    & h2 {
+        font-family: var(--second-family);
+        font-size: 70px;
+        line-height: 110%;
+        color: var(--low-color);
+
+        background: url("../img/texnolag/line.svg");
+        background-repeat: no-repeat;
+        background-position: center right;
+    }
+}
+
+._container {}
+
+.price__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.price__cards {
+    padding-top: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.price__card {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 50%;
+
+    box-shadow: 0 4px 20px 0 rgba(193, 193, 193, 0.3);
+    background: rgba(236, 234, 234, 0.4);
+    border: 2px solid rgba(192, 190, 190, 0.4);
+    border-radius: 20px;
+}
+
+.price__card-1 {
+    position: relative;
+
+    & img {
+        position: absolute;
+        top: -224px;
+        left: -50px;
+        z-index: -1;
+    }
+}
+
+.price__img {
+    display: none;
+
+    @media (min-width: 1400px) {
+        display: block;
+    }
+}
+
+.price__card-2 {
+    position: relative;
+
+    & img {
+        position: absolute;
+        top: 180px;
+        z-index: -1;
+        left: 462px;
+    }
+}
+
+
+
+.price__content {
+    padding: 60px;
+
+    & h2 {
+        font-family: var(--second-family);
+        font-size: 44px;
+        line-height: 112%;
+        padding-bottom: 46px;
+    }
+}
+
+.price__item {
+    color: var(--low-color);
+
+    &:not(:last-child) {
+        padding-bottom: 7px;
+    }
+
+    &::before {
+
+        content: url("/img/price/checkbox.svg");
+        padding-right: 20px;
+    }
+}
+
+.price__item-and {
+    color: #abaabb;
+}
+
+.price__card-bot {
+    padding: 0 60px;
+    display: flex;
+    align-items: end;
+    // justify-content: space-between;
+    gap: 178px;
+    padding-bottom: 51px;
+
+}
+
+.price__price {
+    display: flex;
+    align-items: end;
+    font-size: 79px;
+    line-height: 111%;
+}
+
+.price__subprice {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #abaabb;
+}
+
+.price__brn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 18px 36px;
+    width: 139px;
+    height: 60px;
+    background-color: var(--purple-color);
+    border-radius: 5px;
+}

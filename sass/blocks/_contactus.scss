@@ -1,0 +1,118 @@
+.contactus {
+    // background: url("../img/contactus/1.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: -40px;
+
+}
+
+.contactus__container {}
+
+
+.contactus__left {}
+
+.contactus__title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 110%;
+    color: #1a1930;
+}
+
+.contactus__text-block {
+    max-width: 459px;
+}
+
+.contactus__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #2d2b5c;
+    padding-bottom: 20px;
+}
+
+.contactus__subtext {
+    color: #abaabb;
+    padding: 0;
+}
+
+.contactus__right {
+    display: flex;
+    flex-direction: column;
+    // flex: 0 1 100%;
+}
+
+.form__contactus {
+    // background-color: #b18956;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+    & p {
+        padding-top: 18px;
+        padding-bottom: 11px;
+    }
+}
+
+.first__input {
+    color: #c1c1c1;
+    padding: 15px 32px;
+    border-radius: 8px;
+    fill: rgba(255, 255, 255, 0.4);
+    stroke-width: 2px;
+    stroke: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 20px 0 rgba(193, 193, 193, 0.3);
+    // min-width: 640px;
+
+    border: 2px solid rgba(192, 190, 190, 0.4);
+}
+
+.last__input {
+    color: #c1c1c1;
+    padding: 21px 0 53px 32px;
+    border-radius: 8px;
+    fill: rgba(255, 255, 255, 0.4);
+    stroke-width: 2px;
+    stroke: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 20px 0 rgba(193, 193, 193, 0.3);
+    // max-width: 640px;
+
+    border: 2px solid rgba(192, 190, 190, 0.4);
+}
+
+.first__form {
+    padding-top: 46px;
+    padding-bottom: 11px;
+
+}
+
+.contactus__btn {
+
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+
+    padding: 17px 290px;
+    background-color: var(--purple-color);
+    border-radius: 8px;
+}
+
+.contactus__content {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+.contactus__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    // background: url("/img/texnolag/line.svg");
+    background-repeat: no-repeat;
+    background-position: center right;
+}
